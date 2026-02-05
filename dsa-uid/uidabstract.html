@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LogicLens</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+CJK+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: 'Noto Sans CJK JP', 'Samsung Sans', sans-serif; background-color: #f9f9f9; margin: 0; padding: 0;">
+
+<h1 style="text-align: center; color: #2c3e50;">
+    LogicLens
+</h1>
+<h2 style="text-align: center; color: #2c3e50;">
+    Team 1 - Sujay S - AIE B 25158
+</h2>
+
+<h3 style="text-align: center; color: #555;">
+    A Structure-Aware Code Similarity Detection System
+</h3>
+
+<hr>
+
+<h2 style="color: #34495e;">Project Abstract</h2>
+
+<img src="Iterative-Factorial.png" alt="Iterative approach to factorial" style="float: left; width: 300px; height: auto; margin: 0 10px 10px 0;">
+
+<p style="color: #333; line-height: 1.6; text-align: justify;">
+    With the rapid growth of online coding platforms and automated evaluations, identifying
+    logically similar program submissions has become increasingly challenging. Many solutions
+    solve the same problem using <b>identical logic</b> but appear different due to <b>changes in variable
+    names</b>, <b>formatting</b>, or minor <b>syntactic variations</b>. Traditional text-based comparison methods
+    often <i>fail to capture such similarities accurately.</i>
+</p>
+
+<p style="color: #333; line-height: 1.6; text-align: justify;">
+    This project proposes <b>LogicLens</b>, a <b>structure-aware</b> code similarity detection system
+    designed to identify <b>logical resemblance</b> between <b>Python</b> programs without relying on
+    <i>machine learning</i> techniques. Instead of comparing raw source code, the system first
+    converts programs into <b>simplified token sequences</b> that represent the underlying logic,
+    removing superficial differences while preserving <b>program structure</b>.
+</p>
+
+<img src="Recursive-Factorial.png" alt="Recursive approach to factorial" style="float: right; width: 300px; height: auto; margin: 0 0 10px 10px;">
+
+<p style="color: #333; line-height: 1.6; text-align: justify;">
+    To efficiently detect similarities, the system uses a combination of classical <b>data structures</b> and <b>algorithms</b>. <b>Rolling Hash</b> techniques are applied for fast initial similarity
+    checks, allowing the system to filter out unrelated programs quickly. For deeper structural
+    comparison, the <b>Longest Common Subsequence (LCS)</b> algorithm is used to measure how closely
+    two programs align in terms of logical flow. Additionally, a <b>Trie-based</b> indexing mechanism
+    helps identify reused logical fragments across multiple submissions.
+</p>
+
+<p style="color: #333; line-height: 1.6; text-align: justify;">
+    By relying entirely on <i>deterministic algorithms</i> and <i>well-established data structures</i>,
+    LogicLens ensures <b>transparent</b>, <b>interpretable</b>, and <b>efficient</b> similarity detection. The
+    system demonstrates how core concepts from <b>Data Structures and Algorithms</b> can be applied
+    to solve real-world problems such as <b>academic integrity enforcement</b> and <b>automated code
+    analysis</b>.
+</p>
+
+<h3 style="color: #34495e;">Keywords</h3>
+
+<p style="color: #555;">
+    <b>Code Similarity Detection</b>, <b>Data Structures</b>, <b>Rolling Hash</b>, <b>Longest Common Subsequence</b>,
+    <b>Trie</b>, <b>Python Program Analysis</b>
+</p>
+
+<hr>
+
+<p style="text-align: center;">
+    <a href="https://github.com/Sujay-197/uid_dsa_s2_prj" style="text-decoration: none; color: #333;">
+        <img src="download (1).png" alt="GitHub Logo"   
+        style="width: 40px; height: 40px; vertical-align: middle; margin: 0 5px;">
+        View on GitHub
+    </a>
+    - Git Repo with LogicLens source code along with GitPages Hosting (under development)
+</p>
+
+</body>
+</html>
