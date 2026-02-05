@@ -1,5 +1,0 @@
-pybullet
-stable-baselines3
-numpy
-matplotlib
-gymnasium
